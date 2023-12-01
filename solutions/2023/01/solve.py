@@ -28,19 +28,19 @@ def convert_numbers(input_string):
     converted_string = pattern.sub(lambda x: str(written_to_numeric[x.group()]), input_string)
     return converted_string
 
-with open ('01_input.txt') as f:
+with open ('input.txt') as f:
     combinedvalue = 0
     for line in f:
         line = line.strip()
         print(line)
         convertedline = convert_numbers(line)
-        print(convertedline)
+        #print(convertedline)
         digits = re.findall(r'\d', convertedline)
         firstdigit = int(digits[0]) * 10
         lastdigit = int(digits[-1])
         print(firstdigit+lastdigit)
         combinedvalue += firstdigit + lastdigit
-    print(combinedvalue)
+    #print(combinedvalue)
 
 
 
