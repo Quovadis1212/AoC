@@ -16,4 +16,4 @@ Der Trick ist die Regex-Suche in ein capture group in einem lookahead zu verpack
 ## Tag 2 
 
 Wieder ein Einsatz für das re Modul. Die meiste Zeit verbrauchte ich, um die Daten richtig zu Ordnen. Danach waren die Aufgaben sehr einfach. Den 2. Teil konnte ich in unter 5 Minuten lösen.
-[Tag 2 Lösung 1](solutions\2023\02\solve.py)
+[Tag 2 Lösung 1](solutions/2023/02/solve.py)
